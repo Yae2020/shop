@@ -1,0 +1,135 @@
+.center {
+    text-align: center;
+    margin: 0;
+}
+
+.best-seller-product-container {
+    margin-top: 100px;
+    margin-bottom: 200px;
+}
+
+.best-img {
+    height: 280px;
+    width: 100%;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    background-color: rgb(216, 208, 208);
+}
+
+.price {
+    font-weight: 800;
+    font-size: 1.3vw;
+}
+
+.best-seller-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    row-gap: 50px;
+    column-gap: 30px;
+}
+
+.best-product-container {
+    width: 100%;
+    border-radius: 20px;
+}
+
+.center-container {
+    margin-bottom: 50px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.center-container h1 {
+    font-size: 2.5vw;
+}
+
+.center-container h5 {
+    font-size: 1vw;
+}
+
+.recent-img {
+    width: 100%;
+    height: 300px;
+    border-radius: 25px;
+    margin-bottom: 10px;
+}
+
+.recent {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 20px;
+}
+
+.recent-new-container {
+    margin-bottom: 50px;
+}
+
+.about-project-container {
+    display: grid;
+    grid-template-columns: 25vw 15vw 1fr 1fr;
+    column-gap: 5vw;
+    vertical-align: top;
+}
+
+.quick {
+    display: flex;
+    flex-direction: column;
+}
+
+.quick a {
+    text-decoration: none;
+    color: black;
+    font-size: 1vw;
+}
+
+.subscribe-container button {
+    border: none;
+    background-color: rgb(224, 52, 52);
+    color: antiquewhite;
+    border-radius: 30px;
+    padding: 5px 20px 5px 20px;
+}
+
+.subscribe-container input {
+    border: none;
+    outline: none;
+    width: 100px;
+    flex: 1;
+    background-color: rgb(233, 201, 201);
+}
+
+.subscribe-container {
+    width: fit-content;
+    background-color: rgb(233, 201, 201);
+    padding: 5px 10px 5px 20px;
+    border-radius: 30px;
+}
+
+.icon-container i {
+    margin: 20px;
+}
+
+.copy-right-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: black;
+    color: antiquewhite;
+    height: 30px;
+}
+
+.best-product-container p {
+    font-size: 1.2vw;
+}
+
+.author {
+    font-size: 1vw;
+}
+
+.recent-img {
+    height: 250px;
+}
+
+.project {
+    font-size: 1xw;
+    font-family: 'Oswald', sans-serif;
+}

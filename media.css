@@ -1,0 +1,470 @@
+@media (min-width:1000px) {}
+
+@media (min-width:751px) and (max-width:999px) {
+    .headphone-img {
+        width: 350px;
+    }
+    .about1 {
+        position: absolute;
+        left: 7vw;
+        top: 100px;
+    }
+    .headphone-img-container {
+        position: absolute;
+        left: 32vw;
+        top: 10px;
+    }
+    .description-container {
+        position: absolute;
+        right: 0;
+        bottom: 100px;
+    }
+    .button-container {
+        position: absolute;
+        left: 7vw;
+        bottom: 150px;
+    }
+    .topsection-container {
+        display: grid;
+        grid-template-columns: 1fr;
+        row-gap: 20px;
+        margin-bottom: 20px;
+    }
+    .bottomsection-container {
+        display: grid;
+        grid-template-columns: 1fr;
+        row-gap: 20px;
+    }
+    .earphone-img {
+        width: 300px;
+        position: absolute;
+        left: 9vw;
+        top: 20px;
+    }
+    .watch-img {
+        width: 200px;
+        position: absolute;
+        left: 10vw;
+        top: 10px;
+    }
+    .laptop-img {
+        width: 300px;
+        position: absolute;
+        left: 20vw;
+        top: 30px;
+    }
+    .discount-property-container {
+        position: relative;
+        height: 170px;
+        width: 10vw;
+    }
+    .discount-info3 {
+        position: absolute;
+        top: 9px;
+    }
+    .discount-section-container {
+        background-color: rgb(250, 54, 54);
+        height: 340px;
+        position: relative;
+        border-radius: 20px;
+    }
+    .discount-img {
+        width: 400px;
+        position: absolute;
+        bottom: 190px;
+        left: 0;
+    }
+    .best-seller-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        row-gap: 50px;
+        column-gap: 30px;
+    }
+    .iwatch-container {
+        background-color: rgb(49, 240, 49);
+        height: 370px;
+        position: relative;
+        border-radius: 20px;
+    }
+    .iwatch-img {
+        width: 300px;
+        transform: rotateY(180deg);
+        position: absolute;
+        bottom: 200px;
+        left: 130px;
+    }
+    .about-project-container {
+        display: grid;
+        grid-template-columns: 23vw 13vw 18vw 1fr;
+        column-gap: 5vw;
+        vertical-align: top;
+    }
+    .subscribe-container input {
+        border: none;
+        outline: none;
+        width: 80px;
+        flex: 1;
+        background-color: rgb(233, 201, 201);
+    }
+}
+
+@media (max-width:750px) {
+    .headphone-img {
+        width: 250px;
+    }
+    .about1 {
+        position: absolute;
+        left: 7vw;
+        top: 90px;
+    }
+    .headphone-img-container {
+        position: absolute;
+        left: 32vw;
+        top: 60px;
+    }
+    .description-container {
+        position: absolute;
+        right: 0;
+        bottom: 70px;
+    }
+    .button-container {
+        position: absolute;
+        left: 50px;
+        bottom: 90px;
+    }
+    .headphone-container {
+        height: 400px;
+    }
+    .topsection-container {
+        display: grid;
+        grid-template-columns: 1fr;
+        row-gap: 20px;
+        margin-bottom: 20px;
+    }
+    .bottomsection-container {
+        display: grid;
+        grid-template-columns: 1fr;
+        row-gap: 20px;
+    }
+    .earphone-img {
+        width: 300px;
+        position: absolute;
+        left: 3vw;
+        top: 20px;
+    }
+    .watch-img {
+        width: 200px;
+        position: absolute;
+        left: 10vw;
+        top: 10px;
+    }
+    .laptop-img {
+        width: 300px;
+        position: absolute;
+        left: 20vw;
+        top: 30px;
+    }
+    .earphone-container {
+        background-color: rgb(41, 40, 40);
+        border-radius: 20px;
+        height: 300px;
+        position: relative;
+        overflow: hidden;
+    }
+    .watch-container {
+        background-color: rgb(190, 190, 7);
+        border-radius: 20px;
+        height: 300px;
+        position: relative;
+        overflow: hidden;
+    }
+    .laptop-container {
+        background-color: rgb(236, 59, 59);
+        border-radius: 20px;
+        height: 300px;
+        position: relative;
+        overflow: hidden;
+    }
+    .game-container {
+        background-color: rgb(187, 181, 181);
+        border-radius: 20px;
+        height: 300px;
+        position: relative;
+        overflow: hidden;
+    }
+    .oculus-container {
+        background-color: rgb(21, 171, 240);
+        border-radius: 20px;
+        height: 300px;
+        position: relative;
+        overflow: hidden;
+    }
+    .speaker-container {
+        background-color: rgb(30, 214, 30);
+        border-radius: 20px;
+        height: 300px;
+        position: relative;
+        overflow: hidden;
+    }
+    .discount-section-container {
+        background-color: rgb(250, 54, 54);
+        height: 270px;
+        position: relative;
+        border-radius: 20px;
+    }
+    .discount-property-container {
+        position: relative;
+        height: 120px;
+        width: 10vw;
+    }
+    .discount-info3 {
+        position: absolute;
+        top: 6px;
+    }
+    .discount-img {
+        width: 350px;
+        position: absolute;
+        bottom: 130px;
+        left: 0;
+    }
+    .best-seller-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        row-gap: 50px;
+        column-gap: 30px;
+    }
+    .iwatch-container {
+        background-color: rgb(49, 240, 49);
+        height: 270px;
+        position: relative;
+        border-radius: 20px;
+    }
+    .iwatch-img {
+        width: 190px;
+        transform: rotateY(180deg);
+        position: absolute;
+        bottom: 150px;
+        left: 80px;
+    }
+    .recent {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        column-gap: 20px;
+        row-gap: 20px;
+    }
+    .recent-img {
+        height: 200px;
+    }
+    .about-project-container {
+        display: grid;
+        grid-template-columns: 20vw 10vw 15vw 1fr;
+        column-gap: 5vw;
+        vertical-align: top;
+    }
+    .subscribe-container input {
+        border: none;
+        outline: none;
+        width: 70px;
+        flex: 1;
+        background-color: rgb(233, 201, 201);
+    }
+}
+
+@media (max-width:450px) {
+    .headphone-img {
+        width: 200px;
+    }
+    .headphone-img-container {
+        position: absolute;
+        left: 32vw;
+        top: 40px;
+    }
+    .headphone-container {
+        height: 350px;
+    }
+    .about1 {
+        position: absolute;
+        left: 7vw;
+        top: 90px;
+    }
+    .topsection-container {
+        display: grid;
+        grid-template-columns: 1fr;
+        row-gap: 20px;
+        margin-bottom: 20px;
+    }
+    .bottomsection-container {
+        display: grid;
+        grid-template-columns: 1fr;
+        row-gap: 20px;
+    }
+    .earphone-img {
+        width: 300px;
+        position: absolute;
+        left: 3vw;
+        top: 20px;
+    }
+    .watch-img {
+        width: 200px;
+        position: absolute;
+        left: 10vw;
+        top: 10px;
+    }
+    .laptop-img {
+        width: 300px;
+        position: absolute;
+        left: 20vw;
+        top: 30px;
+    }
+    .earphone-container {
+        background-color: rgb(41, 40, 40);
+        border-radius: 20px;
+        height: 250px;
+        position: relative;
+        overflow: hidden;
+    }
+    .watch-container {
+        background-color: rgb(190, 190, 7);
+        border-radius: 20px;
+        height: 250px;
+        position: relative;
+        overflow: hidden;
+    }
+    .laptop-container {
+        background-color: rgb(236, 59, 59);
+        border-radius: 20px;
+        height: 250px;
+        position: relative;
+        overflow: hidden;
+    }
+    .game-container {
+        background-color: rgb(187, 181, 181);
+        border-radius: 20px;
+        height: 250px;
+        position: relative;
+        overflow: hidden;
+    }
+    .oculus-container {
+        background-color: rgb(21, 171, 240);
+        border-radius: 20px;
+        height: 250px;
+        position: relative;
+        overflow: hidden;
+    }
+    .speaker-container {
+        background-color: rgb(30, 214, 30);
+        border-radius: 20px;
+        height: 250px;
+        position: relative;
+        overflow: hidden;
+    }
+    .earphone-img {
+        width: 250px;
+        position: absolute;
+        left: 1vw;
+        top: 30px;
+    }
+    .watch-img {
+        width: 200px;
+        position: absolute;
+        right: 1vw;
+        top: 10px;
+    }
+    .laptop-img {
+        width: 250px;
+        position: absolute;
+        right: 1vw;
+        top: 60px;
+    }
+    .game-img {
+        width: 250px;
+        position: absolute;
+        top: 10px;
+        right: 1vw;
+    }
+    .oculus-img {
+        width: 250px;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+    }
+    .speaker-img {
+        width: 200px;
+        position: absolute;
+        right: 1vw;
+        bottom: 10px;
+    }
+    .discount-section-container {
+        background-color: rgb(250, 54, 54);
+        height: 200px;
+        position: relative;
+        border-radius: 20px;
+    }
+    .discount-property-container {
+        position: relative;
+        height: 80px;
+        width: 10vw;
+    }
+    .discount-info3 {
+        position: absolute;
+        top: 2px;
+    }
+    .discount-img {
+        width: 280px;
+        position: absolute;
+        bottom: 80px;
+        left: 0;
+    }
+    .best-seller-container {
+        display: grid;
+        grid-template-columns: 1fr;
+        row-gap: 50px;
+        column-gap: 30px;
+    }
+    .iwatch-container {
+        background-color: rgb(49, 240, 49);
+        height: 200px;
+        position: relative;
+        border-radius: 20px;
+    }
+    .iwatch-img {
+        width: 150px;
+        transform: rotateY(180deg);
+        position: absolute;
+        bottom: 90px;
+        left: 50px;
+    }
+    .recent {
+        display: grid;
+        grid-template-columns: 1fr;
+        column-gap: 20px;
+        row-gap: 20px;
+    }
+    .about-project-container {
+        display: grid;
+        grid-template-columns: 17vw 7vw 12vw 1fr;
+        column-gap: 8vw;
+        vertical-align: top;
+    }
+    .subscribe-container input {
+        border: none;
+        outline: none;
+        width: 60px;
+        background-color: rgb(233, 201, 201);
+    }
+    .project {
+        font-size: 0.9vw;
+    }
+    .quick a {
+        font-size: 0.9vw;
+    }
+    .fa-brands {
+        font-size: 8px;
+    }
+    .subscribe-container input {
+        font-size: 0.9vw;
+    }
+    .subscribe-container button {
+        font-size: 0.9vw;
+    }
+}

@@ -1,0 +1,70 @@
+.navbar {
+    display: flex;
+    flex-direction: row;
+    height: 50px;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    border-bottom: 1px solid rgb(209, 204, 204);
+    background-color: aliceblue;
+    z-index: 100;
+}
+
+
+/*font-family: 'Oswald', sans-serif;
+*/
+
+.logo {
+    margin: 0;
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.5vw;
+    letter-spacing: 0.2vw;
+    font-weight: 600;
+    color: red;
+}
+
+body {
+    margin: 0;
+}
+
+.left-section {
+    margin-left: 1vw;
+}
+
+.middle-section a {
+    text-decoration: none;
+    margin: 1vw;
+    color: rgb(88, 86, 86);
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.3vw;
+}
+
+.middle-section a:focus {
+    text-decoration: solid;
+    text-decoration-line: underline;
+    text-decoration-color: black;
+    color: black;
+}
+
+.right-section a {
+    text-decoration: none;
+    color: rgb(88, 86, 86);
+    font-family: 'Oswald', sans-serif;
+    margin-right: 1vw;
+    font-size: 1.3vw;
+}
+
+.right-section a:focus {
+    text-decoration: solid;
+    text-decoration-line: underline;
+    text-decoration-color: black;
+    color: black;
+}
+
+.right-section i {
+    margin: 1vw;
+    font-size: 1.3vw;
+}

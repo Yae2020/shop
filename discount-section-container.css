@@ -1,0 +1,113 @@
+.discount-section-container {
+    background-color: rgb(250, 54, 54);
+    height: 400px;
+    position: relative;
+    border-radius: 20px;
+}
+
+.discount-info {
+    font-size: 1vw;
+    font-weight: 300;
+    color: aliceblue;
+    opacity: 0.7;
+}
+
+.discount-property {
+    font-size: 7vw;
+    font-weight: 900;
+    color: aliceblue;
+}
+
+.discount-info1 {
+    font-size: 1.3vw;
+    color: aliceblue;
+}
+
+.sale {
+    font-size: 3vw;
+    font-weight: 800;
+    color: aliceblue;
+}
+
+.discount-right-section {
+    position: absolute;
+    top: 12vh;
+    right: 6vw;
+}
+
+.discount-button {
+    padding: 3px 30px 3px 30px;
+    border-radius: 17px;
+    border: none;
+    margin-top: 20px;
+    color: rgb(250, 54, 54);
+}
+
+.discount-property-container {
+    position: relative;
+    height: 40vh;
+    width: 10vw;
+}
+
+.discount1 {
+    position: absolute;
+    top: 0;
+}
+
+.discount2 {
+    position: absolute;
+    bottom: 0;
+}
+
+.discount-left-section-section {
+    position: relative;
+    height: auto;
+    width: 25vw;
+}
+
+.discount-info3 {
+    position: absolute;
+    top: 2vh;
+}
+
+.discount-info4 {
+    position: absolute;
+    bottom: 0;
+}
+
+.discount-left-section {
+    position: absolute;
+    top: 12vh;
+    left: 2vw;
+    width: auto;
+}
+
+.discount-img {
+    width: 600px;
+    position: absolute;
+    bottom: 150px;
+    left: 0px;
+}
+
+.iwatch-container {
+    background-color: rgb(49, 240, 49);
+    height: 500px;
+    position: relative;
+    border-radius: 20px;
+}
+
+.discount-button1 {
+    padding: 3px 30px 3px 30px;
+    border-radius: 17px;
+    border: none;
+    margin-top: 20px;
+    color: rgb(49, 240, 49);
+}
+
+.iwatch-img {
+    width: 400px;
+    transform: rotateY(180deg);
+    position: absolute;
+    bottom: 250px;
+    left: 190px;
+}
